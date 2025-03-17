@@ -21,8 +21,8 @@ class Movie {
         id: json["id"],
         title: json["title"],
         overview: json["overview"],
-        posterPath: json["poster_path"],
-        backdropPath: json["backdrop_path"],
+        posterPath: json["poster_path"] ?? '',
+        backdropPath: json["backdrop_path"] ?? '',
         releaseDate: json["release_date"],
         voteAverage: json["vote_average"]);
   }
