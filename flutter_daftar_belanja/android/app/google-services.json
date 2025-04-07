@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "10951648592",
+    "firebase_url": "https://prjpab2-si6d-171129-default-rtdb.firebaseio.com",
+    "project_id": "prjpab2-si6d-171129",
+    "storage_bucket": "prjpab2-si6d-171129.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10951648592:android:053b42106f0848f33eb855",
+        "android_client_info": {
+          "package_name": "com.example.flutter_daftar_belanja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHmIQC6poS-flazOY2tokDajSu69vnWdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
