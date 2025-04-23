@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "10951648592",
+    "firebase_url": "https://prjpab2-si6d-171129-default-rtdb.firebaseio.com",
+    "project_id": "prjpab2-si6d-171129",
+    "storage_bucket": "prjpab2-si6d-171129.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10951648592:android:053b42106f0848f33eb855",
+        "android_client_info": {
+          "package_name": "com.daftarbelanja.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10951648592-3n2514fqc0i3mcerdekltepuhba1029t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHmIQC6poS-flazOY2tokDajSu69vnWdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10951648592-3n2514fqc0i3mcerdekltepuhba1029t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "10951648592-2bladggu11up1p3ab3drtu9qhbtqu0hg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterDaftarBelanja"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10951648592:android:2457c78175a6bc333eb855",
+        "android_client_info": {
+          "package_name": "com.example.fasumsi6d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10951648592-3n2514fqc0i3mcerdekltepuhba1029t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHmIQC6poS-flazOY2tokDajSu69vnWdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10951648592-3n2514fqc0i3mcerdekltepuhba1029t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "10951648592-2bladggu11up1p3ab3drtu9qhbtqu0hg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterDaftarBelanja"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10951648592:android:9fa85f8bca5585de3eb855",
+        "android_client_info": {
+          "package_name": "com.example.flutter_fasum_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10951648592-3n2514fqc0i3mcerdekltepuhba1029t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHmIQC6poS-flazOY2tokDajSu69vnWdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10951648592-3n2514fqc0i3mcerdekltepuhba1029t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "10951648592-2bladggu11up1p3ab3drtu9qhbtqu0hg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterDaftarBelanja"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
