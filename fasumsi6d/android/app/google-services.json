@@ -32,10 +32,46 @@
               "client_type": 3
             },
             {
-              "client_id": "10951648592-2bladggu11up1p3ab3drtu9qhbtqu0hg.apps.googleusercontent.com",
+              "client_id": "10951648592-1ndj5gp14f73rc91dnkmh0bupi1kgeat.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.flutterDaftarBelanja"
+                "bundle_id": "com.example.fasum"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10951648592:android:f854703ff82202463eb855",
+        "android_client_info": {
+          "package_name": "com.example.fasum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10951648592-3n2514fqc0i3mcerdekltepuhba1029t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHmIQC6poS-flazOY2tokDajSu69vnWdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10951648592-3n2514fqc0i3mcerdekltepuhba1029t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "10951648592-1ndj5gp14f73rc91dnkmh0bupi1kgeat.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fasum"
               }
             }
           ]
@@ -68,10 +104,10 @@
               "client_type": 3
             },
             {
-              "client_id": "10951648592-2bladggu11up1p3ab3drtu9qhbtqu0hg.apps.googleusercontent.com",
+              "client_id": "10951648592-1ndj5gp14f73rc91dnkmh0bupi1kgeat.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.flutterDaftarBelanja"
+                "bundle_id": "com.example.fasum"
               }
             }
           ]
@@ -104,10 +140,10 @@
               "client_type": 3
             },
             {
-              "client_id": "10951648592-2bladggu11up1p3ab3drtu9qhbtqu0hg.apps.googleusercontent.com",
+              "client_id": "10951648592-1ndj5gp14f73rc91dnkmh0bupi1kgeat.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.flutterDaftarBelanja"
+                "bundle_id": "com.example.fasum"
               }
             }
           ]
