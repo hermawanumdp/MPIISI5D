@@ -42,13 +42,13 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyCEUmsA3VDiYnx-d91UCpM8uljKUF8nahw',
-    appId: '1:10951648592:web:5fc771800918b7d43eb855',
+    appId: '1:10951648592:web:3cb87ffa3529335b3eb855',
     messagingSenderId: '10951648592',
     projectId: 'prjpab2-si6d-171129',
     authDomain: 'prjpab2-si6d-171129.firebaseapp.com',
     databaseURL: 'https://prjpab2-si6d-171129-default-rtdb.firebaseio.com',
     storageBucket: 'prjpab2-si6d-171129.firebasestorage.app',
-    measurementId: 'G-RG0CQMVC34',
+    measurementId: 'G-53HHY5H8R3',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
