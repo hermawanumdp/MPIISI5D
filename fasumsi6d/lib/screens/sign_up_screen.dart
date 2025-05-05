@@ -93,7 +93,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     obscureText: !_isPasswordVisible,
                     validator: (value) {
                       if (value == null || value.trim().isEmpty) {
-                        return 'Please Enter Your Full Name';
+                        return 'Please Enter Your Password';
                       }
 
                       if (value.length < 6) {

@@ -70,6 +70,16 @@ class _SignInScreenState extends State<SignInScreen> {
                       ),
                     ),
                     obscureText: !_isPasswordVisible,
+                    validator: (value) {
+                      if (value == null || value.trim().isEmpty) {
+                        return 'Please Enter Your Password';
+                      }
+
+                      if (value.length < 6) {
+                        return 'Password must be at least 6 characters';
+                      }
+                      return null;
+                    },
                   ),
                   const SizedBox(height: 16),
                   _isLoading
@@ -156,12 +166,10 @@ class _SignInScreenState extends State<SignInScreen> {
 
   String _getAuthErrorMessage(String code) {
     switch (code) {
-      case 'user-not-found':
-        return 'No user found with that email';
-      case 'wrong-password':
-        return 'Wrong password. Please try again.';
+      case 'invalid-credential':
+        return 'No user found or wrong password . Please try again.';
       default:
-        return 'An error occurred. Please try again.';
+        return '$code , An error occurred. Please try again';
     }
   }
 }
