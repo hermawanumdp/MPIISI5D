@@ -12,7 +12,14 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Home'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.logout))],
+        actions: [
+          IconButton(
+            onPressed: () {
+              signOut(context);
+            },
+            icon: const Icon(Icons.logout),
+          ),
+        ],
       ),
     );
   }
