@@ -1,0 +1,108 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "fasumsi6d",
+            "cwd": "fasumsi6d",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "fasumsi6d (profile mode)",
+            "cwd": "fasumsi6d",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "fasumsi6d (release mode)",
+            "cwd": "fasumsi6d",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "flutter_application_film",
+            "cwd": "flutter_application_film",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_application_film (profile mode)",
+            "cwd": "flutter_application_film",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_application_film (release mode)",
+            "cwd": "flutter_application_film",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "flutter_daftar_belanja",
+            "cwd": "flutter_daftar_belanja",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_daftar_belanja (profile mode)",
+            "cwd": "flutter_daftar_belanja",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_daftar_belanja (release mode)",
+            "cwd": "flutter_daftar_belanja",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "flutter_daftar_karyawan",
+            "cwd": "flutter_daftar_karyawan",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_daftar_karyawan (profile mode)",
+            "cwd": "flutter_daftar_karyawan",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_daftar_karyawan (release mode)",
+            "cwd": "flutter_daftar_karyawan",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "flutter_review1",
+            "cwd": "flutter_review1",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_review1 (profile mode)",
+            "cwd": "flutter_review1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_review1 (release mode)",
+            "cwd": "flutter_review1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
