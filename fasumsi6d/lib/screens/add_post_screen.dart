@@ -211,7 +211,7 @@ class _AddPostScreenState extends State<AddPostScreen> {
       // Ambil nama lengkap dari koleksi users
       final userDoc =
           await FirebaseFirestore.instance.collection('users').doc(uid).get();
-      final fullName = userDoc.data()?['fullName'] ?? 'Anonymous';
+      final fullName = userDoc.data()?['fullname'] ?? 'Anonymous';
       await FirebaseFirestore.instance.collection('posts').add({
         'image': _base64Image,
         'description': _descriptionController.text,

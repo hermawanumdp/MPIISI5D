@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:fasumsi6d/screens/add_post_screen.dart';
+import 'package:fasumsi6d/screens/detail_screen.dart';
 import 'package:fasumsi6d/screens/sign_in_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -95,7 +96,24 @@ class _HomeScreenState extends State<HomeScreen> {
                 final heroTag =
                     'fasum-image-${createdAt.millisecondsSinceEpoch}';
                 return InkWell(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder:
+                            (context) => DetailScreen(
+                              imageBase64: imageBase64,
+                              description: description,
+                              createdAt: createdAt,
+                              fullname: fullName,
+                              latitude: latitude,
+                              longitude: longitude,
+                              category: category,
+                              heroTag: heroTag,
+                            ),
+                      ),
+                    );
+                  },
                   child: Card(
                     elevation: 1,
                     color: Theme.of(context).colorScheme.surfaceContainerLow,
