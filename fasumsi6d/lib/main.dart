@@ -1,6 +1,7 @@
 import 'package:fasumsi6d/firebase_options.dart';
 import 'package:fasumsi6d/screens/sign_in_screen.dart';
 import 'package:fasumsi6d/screens/sign_up_screen.dart';
+import 'package:fasumsi6d/screens/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: SignInScreen(),
+      home: SplashScreen(),
     );
   }
 }

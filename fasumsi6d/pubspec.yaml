@@ -42,6 +42,7 @@ dependencies:
   flutter_image_compress: ^2.4.0
   intl: ^0.20.2
   url_launcher: ^6.3.1
+  flutter_launcher_icons: ^0.14.3
   
 dev_dependencies:
   flutter_test:
@@ -57,6 +58,12 @@ dev_dependencies:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/fasum_icon_512.png"
+  min_sdk_android: 23
+
 # The following section is specific to Flutter packages.
 flutter:
 
@@ -66,8 +73,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/fasum_icon_512.png
+    - assets/fasum_icon.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
