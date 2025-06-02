@@ -231,6 +231,7 @@ class _AddPostScreenState extends State<AddPostScreen> {
           _descriptionController.clear();
         });
         await _compressAndEncodeImage();
+        await _generateDescriptionWithAINew();
       }
     } catch (e) {
       if (mounted) {
@@ -359,8 +360,8 @@ class _AddPostScreenState extends State<AddPostScreen> {
       final imageBytes = await _image!.readAsBytes();
       final base64Image = base64Encode(imageBytes);
       //print(base64Image);
-      const url =
-          'https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent?key=$apiKey';
+      final url =
+          'https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent?key=$_apiKey';
       final body = jsonEncode({
         "contents": [
           {
