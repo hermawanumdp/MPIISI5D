@@ -316,6 +316,9 @@ class _AddPostScreenState extends State<AddPostScreen> {
         'userId': uid, // optional: jika ingin simpan UID juga,
       });
       if (!mounted) return;
+
+      sendNotificationToTopic(_descriptionController.text, fullName);
+
       Navigator.pop(context);
     } catch (e) {
       debugPrint('Upload failed: $e');
@@ -428,6 +431,38 @@ class _AddPostScreenState extends State<AddPostScreen> {
       debugPrint('Failed to generate AI description: $e');
     } finally {
       if (mounted) setState(() => _isGenerating = false);
+    }
+  }
+
+  Future<void> sendNotificationToTopic(String body, String senderName) async {
+    final url = Uri.parse('https://fasum-cloud-si6d.vercel.app/send-to-topic');
+    final response = await http.post(
+      url,
+      headers: {'Content-Type': 'application/json'},
+      body: jsonEncode({
+        "topic": "berita-fasum",
+        "title": "🔔 Laporan Baru",
+        "body": body,
+        "senderName": senderName,
+        "senderPhotoUrl":
+            "https://static.vecteezy.com/system/resources/thumbnails/041/642/167/small_2x/ai-generated-portrait-of-handsome-smiling-young-man-with-folded-arms-isolated-free-png.png",
+      }),
+    );
+
+    if (response.statusCode == 200) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('✅ Notifikasi berhasil dikirim')),
+        );
+      }
+    } else {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('❌ Gagal mengirim notifikasi: ${response.body}'),
+          ),
+        );
+      }
     }
   }
 }
